@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We can see only the lines of a code where is a difference in the new and 
+    in the old version of a file without necessity to watch all code. 
+    In this way we can easily compare the difference and find the lines where bugs are.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can track and fully control the changes of your code step by step. 
+    You always have the access to previous versions of your code.
+    You can compare different versions of your code and easy find bugs!
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros:
+        this gives you full control and flexibility upon commits;
+        you choose the time to make commit and the size of commit;
+        you can do a logical named commits that reflect work on logical parts of a code;
+        you will have nice commit history :)
+    cons:
+        you have to do each commit manually;
+        you may forget to do commit;
+
+Why do you think some version control systems, like Git, c saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In my opinion, Git allow saving multiple files in one commit, because we can have files
+    that are related to each other. And when we changing one file we must change the other related
+    files. For example .html and .js files. If we change the name of function inside .js file
+    and that function are called in .html file, we have to change the function name in .html
+    file too. So, it will be good idea to saving these related files (.html and .js) in one commit.
+    Also, I think, Git is version control system more for programmers, and they often have to work with
+    multiple related files.
+    
+    As for GoogleDocs, it is like MS Office online that automatically create versions of one file 
+    that you work with. It's good for some not programmers work.
+    
+How can you use the commands git log and git diff to view the history of files?
+
+    The command git log shows us the whole history of file commits with id, authors and date 
+    when commit is created. 
+    Using git diff we can compare two commits and see the difference between them.
+    
+How might using version control make you more confident to make changes that
+could break something?
+  
+    We can feel confident to make changes that could break something, because we can always 
+    back to later versions of ours files based on commits that we done.
+    To switch on later version of a files we using a command - git checkout [commit id].
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'm want to create repository, make some good commits.
