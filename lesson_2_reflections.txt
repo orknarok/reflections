@@ -29,7 +29,10 @@ organized? How would branches help?
     features. Now you can work on stable version and version with exp changes separately.
     
 How do the diagrams help you visualize the branch structure?
-
+    
+    The diagram shows us a structure of branches, and connections between them.
+    The diagram shows us which commits are containing in each branch.
+    
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
