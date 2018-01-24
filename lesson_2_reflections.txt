@@ -42,3 +42,9 @@ the diagram the way we do?
     
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+    Always doing merges manually will be total madness when files contains thousands line of code.
+    It's okay when files are small. But more effective will be using git's automatic merging.
+    With automatic merging you have to manually merge only when appear conflicts. Conflict appears
+    only when two people change the same part of code, than you have to manually merge that part of code.
+    The lines of code that are the same in all files just automatically copy, you don't need to check them out.
+    New added lines of code also just copy if there are no conflicts.
