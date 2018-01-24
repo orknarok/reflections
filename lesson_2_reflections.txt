@@ -37,9 +37,8 @@ What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
     
     The result of merging two branches is a branch that we checkout at the moment,
-    and it include commit history from both branches.
-    We represent it in the diagram the way we do, because it much easier to see
-    
+    and it includes a commit history from both branches. It's create a new commit that
+    have a two parents (from two branches).
     
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
