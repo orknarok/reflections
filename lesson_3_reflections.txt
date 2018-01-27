@@ -39,4 +39,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Make changes in a separate branch it's good approach for collaborate with other people.
+    For example. You make some changes in separate branch, than you can do a pull request.
+    Other people are checking your pull request. If it's fine, than accept your changes for merging
+    into master branch, if it isn't, than do some comments what's wrong.
